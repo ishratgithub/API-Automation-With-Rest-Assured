@@ -23,6 +23,10 @@ h. Add any item
 i. Edit any item name
 j. Delete any item from the item list
 3. Now automate the collection using Rest Assured. Add necessary negative test cases while needed. (50)
+## Postman Documentation
+https://documenter.getpostman.com/view/32576823/2sB3BDKB3C
+## Test Cases:
+https://docs.google.com/spreadsheets/d/1ZyZLGWs391aK97L-dZVBPXK7kD7qNNvLvBdly3EkNUU/edit?gid=0#gid=0
 ## Allure Reports:
 <img width="1919" height="770" alt="Screenshot_3" src="https://github.com/user-attachments/assets/11e452ed-ede6-42d2-baab-5919190eb9df" />
 
