@@ -1,0 +1,21 @@
+
+name: Java CI with Gradle
+
+on:
+ push:
+   branches: [ "main" ]
+ pull_request:
+   branches: [ "main" ]
+#  schedule:
+#    - cron: '* * * * *'
+
+jobs:
+ build:
+   runs-on: ubantu-latest
+
+   steps:
+   - uses: actions/checkout@v4
+
+   - name: Build with Gradle Wrapper
+     run: |
+       gradle clean test
